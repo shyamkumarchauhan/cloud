@@ -1,0 +1,15 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo "Building Site"
+artifacts:
+  files:
+    - index.html
+    - _config.yml
+    - reveal.js/*
+    - _plugins/*
+    - _layouts/*
+    - _posts/*
+    - _site/*
